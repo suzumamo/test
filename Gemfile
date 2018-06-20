@@ -7,6 +7,7 @@ ruby '2.4.1'
 gem 'rails', '~> 5.2.0'
 # Use sqlite3 as the database for Active Record
 # gem 'sqlite3' mysqlに切り替えるのでコメントアウト
+# gem 'sqlite3'
 # mysqlに切り替えるので、以下追加
 gem 'mysql2', '~> 0.4.4' # '~> 0.3.21'
 
