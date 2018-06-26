@@ -28,3 +28,7 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+
+# Ignore Spring files.
+# Guard使用時のSpringとGitの競合を防ぐには下記の設定が必要らしい。Guardはファイルの変更を自動で感知して色んな処理をしてくれるRubyのGemのひとつ
+/spring/*.pid
