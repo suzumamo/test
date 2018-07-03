@@ -16,7 +16,7 @@
 
 /** layoutsフォルダ内のapplication.html.erbファイルのcssを設定 **/
 .container {
-  width: 400px;
+  width: 1400px;
   margin: 20px auto;
 }
 body {
